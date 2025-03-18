@@ -1,7 +1,7 @@
 # AzureFarming API Backend with Node.js API and MongoDB (Terraform) on Azure
 Here's a high level architecture diagram that illustrates these components. Notice that these are all contained within a single [resource group](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal), that will be created for you when you create the resources.
 
-!["Application architecture diagram"](assets/resources.png)
+!["Application architecture diagram"](assets/resourcesA.png)
 
 AzureFarming API built with the following Azure ,services : 
 languages:
