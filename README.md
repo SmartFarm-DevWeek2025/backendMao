@@ -62,12 +62,12 @@ when deploy the following URL will be use (this will change based on your system
 https://app-api-otdjotq2y2m1y.azurewebsites.net/
 | HTTP|EndPoint | README |
 | ------ | ------ | ------ |
-|POST| api/users/register | [register user] (docs/API_Register.md) |
-|POST| api/users/login | [login user] (docs/API_Login.md) |
+|POST| api/users/register | [register user](docs/API_Register.md) |
+|POST| api/users/login | [login user](docs/API_Login.md) |
 |POST| api/users/logout | logout user [plugins/dropbox/README.md][PlDb] |
 |POST| api/users/logoutall | logout user remove JWT [plugins/dropbox/README.md][PlDb] |
-|GET| api/users/profile | [get user pofile] (docs/API_GETProfile.md) |
-|PUT| api/users/profile | [update user profile] (docs/API_GETProfile.md) |
+|GET| api/users/profile | [get user pofile](docs/API_GETProfile.md) |
+|PUT| api/users/profile | [update user profile](docs/API_GETProfile.md) |
 
 
 docs
