@@ -35,6 +35,13 @@ router.post("/login", async (req, res) => {
 });
 
 // Fetch logged in user
+router.get("/me", auth, async (req: CustomRequest, res) => {
+    return res.status(200).json({
+        user: req.user,
+    });
+});
+
+// Fetch logged in user
 router.get("/profile", auth, async (req: CustomRequest, res) => {
     return res.status(200).json({
         user: req.user,

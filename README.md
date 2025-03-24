@@ -62,17 +62,15 @@ when deploy the following URL will be use (this will change based on your system
 https://app-api-otdjotq2y2m1y.azurewebsites.net/
 | HTTP|EndPoint | README |
 | ------ | ------ | ------ |
-|POST| api/users/register | register user [plugins/dropbox/README.md][PlDb] |
-|POST| api/users/login | login user [plugins/dropbox/README.md][PlDb] |
+|POST| api/users/register | register user (docs/API_Register.md) |
+|POST| api/users/login | login user (docs/API_Login.md) |
 |POST| api/users/logout | logout user [plugins/dropbox/README.md][PlDb] |
 |POST| api/users/logoutall | logout user remove JWT [plugins/dropbox/README.md][PlDb] |
-|GET| api/users/:id | get user pofile [plugins/github/README.md][PlGh] |
-|PUT| api/users/:id | update user profile [plugins/googledrive/README.md][PlGd] |
-|DELETE| api/users/:id | delete user [plugins/onedrive/README.md][PlOd] |
-|PATCH| api/users/:id/points | add Points to user [plugins/medium/README.md][PlMe] |
-|PATCH| api/users/:id/membership | add Membership [plugins/googleanalytics/README.md][PlGa] |
+|GET| api/users/profile | get user pofile (docs/API_GETProfile.md) |
+|PUT| api/users/profile | update user profile [plugins/googledrive/README.md][PlGd] |
 
 
+docs
 
 ## License
 MIT
