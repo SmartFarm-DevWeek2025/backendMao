@@ -64,8 +64,8 @@ https://app-api-otdjotq2y2m1y.azurewebsites.net/
 | ------ | ------ | ------ |
 |POST| api/users/register | [register user](docs/API_Register.md) |
 |POST| api/users/login | [login user](docs/API_Login.md) |
-|POST| api/users/logout | logout user [plugins/dropbox/README.md][PlDb] |
-|POST| api/users/logoutall | logout user remove JWT [plugins/dropbox/README.md][PlDb] |
+|POST| api/users/logout | [logout user](docs/API_Logout.md) |
+|POST| api/users/logoutall | [logout user All](docs/API_Logoutall.md) |
 |GET| api/users/profile | [get user pofile](docs/API_GETProfile.md) |
 |PUT| api/users/profile | [update user profile](docs/API_GETProfile.md) |
 
