@@ -9,6 +9,7 @@ GET
 Bearer Token :  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2RmM2RhYzE3YmQwNTNmOTc1Nzc1MWIiLCJpYXQiOjE3NDI2ODQ1OTJ9.Ezbp8J9fjzIjLgwo9AcsxEAvO2HufTlmp62dKi9y
 5Xs"
 
+```JSON
 Response
 {
     "user": {
@@ -35,3 +36,4 @@ Response
         "__v": 2
     }
 }
+```

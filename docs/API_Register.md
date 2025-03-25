@@ -4,6 +4,7 @@
 https://app-api-otdjotq2y2m1y.azurewebsites.net/api/users/register
 
 Post request 
+```JSON
 { "name": "John ", 
   "email": "johnmoe@example.com", 
   "password": "password123",
@@ -13,9 +14,9 @@ Post request
     "age": 25
   } 
 }
-
+```
 response
-
+```JSON
     "user": {
         "name": "John Doe",
         "email": "john@example.com",
@@ -41,3 +42,4 @@ response
     },
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2Q3NzhjNTAzYzNkMDU5ZjIwNTY0MWYiLCJpYXQiOjE3NDIxNzQ0MDV9.CA_P0nHXlfQJYtP3bMN27Cc1hIt7gYbwnMtQWKOvZac"
 }
+```

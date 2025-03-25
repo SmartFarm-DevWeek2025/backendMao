@@ -4,6 +4,7 @@
 
 https://app-api-otdjotq2y2m1y.azurewebsites.net/api/users/login
 
+```JSON
 POST
 { 
   "email": "johnmoe@example.com", 
@@ -37,4 +38,4 @@ Response
     },
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2Q4YjNmYzAzYzNkMDU5ZjIwNTY0MjciLCJpYXQiOjE3NDIzMTA5MzB9.lNLiWFFCfNdRG8_Ll0BVYVCOb-k8IztylpxtzDGcSws"
 }
-
+```
